@@ -1,10 +1,10 @@
 
 // Managers and factories
-import { layout } from '../modelui-core-runtime';
+import { layout } from 'modelui-core-runtime';
 
 // Components
-import { registerViewer as registerBPMNViewer, registerEditor as registerBPMNEditor} from './BPMN';
-import { registerViewer as registerCMMNiewer, registerEditor as registerCMMNEditor} from './CMMN';
+import { registerViewer as registerBPMNViewer, registerEditor as registerBPMNEditor } from './BPMN';
+import { registerViewer as registerCMMNiewer, registerEditor as registerCMMNEditor } from './CMMN';
 
 export default function registerComponents(component_manager) {
 

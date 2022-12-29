@@ -1,5 +1,5 @@
 // common tools
-import { structs } from '../modelui-core-runtime';
+import { structs } from 'modelui-core-runtime';
 // import { StateBaseComponent } from './StateBaseComponent';
 // event handler
 // import EventManager from './Event';
